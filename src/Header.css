@@ -1,5 +1,28 @@
-.header-column:first-child {
+#header {
+  background-color: rgb(45, 45, 112);
+}
+#header::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  bottom: 0;
+  width: 50%;
+  height: 60%;
   background-image: url("./assets/2-banner/banner-rounded-001.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: left;
+}
+
+#header::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 60%;
+  right: 0;
+  bottom: 0;
+  background-image: url("./assets/2-banner/banner-rounded-002.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
