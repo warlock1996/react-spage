@@ -1,0 +1,18 @@
+.encircled-heart {
+  border-radius: 50%;
+  padding: 8px;
+  background-color: var(--icon-clr-red);
+}
+.bar2--image {
+  border-radius: 50%;
+  padding: 8px;
+  background-color: var(--icon-clr-red);
+}
+.cancel--btn {
+  padding: 8px;
+}
+.encircled-arrow {
+  border-radius: 50%;
+  padding: 8px;
+  background-color: lightgray;
+}

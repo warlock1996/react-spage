@@ -3,9 +3,9 @@ import {Navbar , Nav,Image,  Form, FormControl , Button} from 'react-bootstrap'
 import logo from '../assets/1-header/logo.png'
 export default function () {
     return (
-        <Navbar className="bg-transparent" expand="lg">
+        <Navbar className="bg-transparent px-10 py-3" expand="lg">
         <Navbar.Brand href="#home">
-        <Image src={logo} />
+        <Image src={logo} width={80}/>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse id="basic-navbar-nav">

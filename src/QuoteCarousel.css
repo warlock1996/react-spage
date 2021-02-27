@@ -1,0 +1,10 @@
+.quote--carousel .carousel-indicators li {
+  background-color: var(--primary-txt-clr);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: none;
+}
+.quote--carousel .carousel-indicators li.active {
+  background-color: var(--primary-txt-clr);
+}

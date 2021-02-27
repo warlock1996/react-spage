@@ -1,0 +1,35 @@
+.quote {
+  height: auto;
+  max-width: 400px;
+  padding: var(--card-padding);
+  box-shadow: var(--card-shadow);
+  border-radius: var(--card-radius);
+  display: inline-block;
+  margin: auto 5px;
+}
+.quote--head {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.quote--head--text--title,
+.quote--head--text--subtitle {
+  margin: 0;
+}
+.quote--head--text {
+  margin-left: 5px;
+}
+.quote--head--image {
+  width: 60px;
+  border-radius: 50%;
+}
+.quote--body--text {
+  padding: 10px;
+}
+.quote--body--text::before,
+.quote--body--text::after {
+  content: ' " ';
+  font-weight: bold;
+  color: inherit;
+}

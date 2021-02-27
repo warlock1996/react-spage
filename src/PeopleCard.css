@@ -1,0 +1,23 @@
+.people--card {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 200px;
+  height: auto;
+  border: none;
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+}
+.people--card--checkbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.people--card--title,
+.people--card--subtitle {
+  text-align: center;
+}
+.people--card--image {
+  border-top-left-radius: var(--card-radius);
+  border-top-right-radius: var(--card-radius);
+}
