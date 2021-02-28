@@ -5,13 +5,13 @@ import '../Bar.css'
 export default function (props) {
     return (
         <Row noGutters={true} className="bar px-10 py-2"> 
-            <Col md={1}>
+            <Col sm={12} md={1}>
                 <Image className="encircled-heart" src={props.icon}/>
             </Col>
-            <Col md={5}>
+            <Col md={8}>
                 <h2 className="bar--title">{props.heading}</h2>
             </Col>
-            <Col md={1} className="ml-auto d-flex align-items-start justify-content-end">
+            <Col sm={12} md={3} className="ml-auto d-flex align-items-start justify-content-end">
                 { props.children}
             </Col>
         </Row>
