@@ -1,3 +1,7 @@
 .contact--title {
   text-align: center;
+  color: var(--primary-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-lg);
 }

@@ -1,18 +1,40 @@
+.bar--title {
+  color: var(--primary-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-lg);
+}
 .encircled-heart {
   border-radius: 50%;
   padding: 8px;
-  background-color: var(--icon-clr-red);
+  background-color: var(--primary-icon-clr);
 }
 .bar2--image {
   border-radius: 50%;
   padding: 8px;
-  background-color: var(--icon-clr-red);
+  background-color: var(--primary-icon-clr);
 }
 .cancel--btn {
   padding: 8px;
 }
-.encircled-arrow {
+.bar1--icon {
   border-radius: 50%;
   padding: 8px;
-  background-color: lightgray;
+  background-color: var(--primary-clr-shade-1);
+}
+
+.bar--btn--edit,
+.bar--btn--edit:hover,
+.bar--btn--edit:active .bar--btn--edit:focus {
+  border: none;
+  background-color: var(--primary-clr-btn-1);
+  color: var(--primary-clr-btn-2);
+}
+
+.bar--btn--add,
+.bar--btn--add:hover,
+.bar--btn--add:active .bar--btn--add:focus {
+  border: none;
+  background-color: var(--primary-clr-shade-1);
+  color: var(--primary-clr);
 }

@@ -3,6 +3,18 @@
   background-color: rgb(45, 45, 112);
   overflow: hidden;
 }
+.header--title {
+  color: var(--primary-title-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-xl);
+}
+.header--text {
+  color: var(--primary-title-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw);
+  font-size: var(--fs-sm);
+}
 .header--image {
   position: relative;
   bottom: -100px;

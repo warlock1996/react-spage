@@ -1,5 +1,25 @@
 .contact--form--card {
   border: none;
   border-radius: var(--card-radius);
-  box-shadow: var(--card-shadow);
+  box-shadow: var(--card-shadow-lg);
+}
+.contact--form--label {
+  color: var(--primary-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-semi-bold);
+  font-size: var(--fs-sm);
+}
+.contact--form--control input {
+  color: var(--primary-clr-shade-1);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-sm);
+  font-size: var(--fs);
+}
+.contact--form--control {
+  border: 1px solid var(--primary-clr-shade-1);
+}
+.contact--form--submit {
+  border: none;
+  background-color: var(--primary-clr);
+  color: var(--primary-title-clr);
 }

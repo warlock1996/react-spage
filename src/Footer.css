@@ -4,9 +4,24 @@
   overflow: hidden;
 }
 .footer--title {
+  color: var(--primary-title-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-semi-bold);
+  font-size: var(--fs-lg);
   vertical-align: middle;
 }
-
+.footer--primary--text {
+  color: var(--primary-title-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-semi-bold);
+  font-size: var(--fs-sm);
+}
+.footer--secondary--text {
+  color: var(--secondary-crd-txt-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw);
+  font-size: var(--fs-sm);
+}
 .footer::before {
   content: "";
   position: absolute;

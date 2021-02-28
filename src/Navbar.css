@@ -1,0 +1,12 @@
+.navbar .navbar--nav--container .nav--link,
+.nav--search {
+  color: var(--primary-title-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-semi-bold);
+  font-size: var(--fs-sm);
+}
+.navbar .navbar--nav--container .nav--link:hover,
+.navbar .navbar--nav--container .nav--link:active,
+.navbar .navbar--nav--container .nav--link:focus {
+  color: var(--secondary-clr);
+}

@@ -16,10 +16,10 @@ import samsung from './assets/5-partners/samsung.PNG'
 import tesla from './assets/5-partners/tesla.PNG'
 
 export default {
-    heading1: 'Heading 1',
-    heading2: 'Heading 2',
-    paragraph1: 'paragraph 1',
-    paragraph2: 'paragraph 2',
+    heading1: 'We can give you our best user experience to your system',
+    heading2: 'Easy access, whenever, whenever you want',
+    paragraph1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    paragraph2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 
     bar1: 'What other people say about our service',
     bar2: 'Our important people is listed here',

@@ -9,8 +9,8 @@ export default function () {
             <Navbar/>
             <Row noGutters={true} className="px-10 py-5">
                 <Col md={6}>    
-                  <h1 className="text-white">Make development easy with us.</h1>
-                    <h4 className="text-white">
+                  <h1 className="header--title">Make development easy with us.</h1>
+                    <h4 className="header--text">
                     Doing development can never be easy, it takes time and resources, we at EasyWork have the solution.
                     </h4>
                 </Col>

@@ -5,13 +5,13 @@ import '../Media.css'
 export default function (props) {
     const reverse = props.reverse ? 'flex-row-reverse' : null;
     return (
-        <Row noGutters={true} className={`align-items-center px-10 py-5 ${reverse}`}>
-        <Col md={6}>
+        <Row noGutters={true} className={`align-items-center px-10 py-3 ${reverse}`}>
+        <Col md={6} className="px-5">
             <Image className="media--image" src={props.image} width="100%"  />
         </Col>
-        <Col md={6}>    
-          <h3 className="text-primary">{props.heading}</h3>
-          <h5 className="text-primary">{props.paragraph}</h5>
+        <Col md={6} className="px-5">    
+          <h3 className="media--title">{props.heading}</h3>
+          <h5 className="media--text">{props.paragraph}</h5>
         </Col>
     </Row>
     )

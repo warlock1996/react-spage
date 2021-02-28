@@ -1,6 +1,6 @@
 .quote {
   height: auto;
-  max-width: 400px;
+  width: 400px;
   padding: var(--card-padding);
   box-shadow: var(--card-shadow);
   border-radius: var(--card-radius);
@@ -9,8 +9,26 @@
 }
 .quote--head {
   display: flex;
-  align-items: start;
+  align-items: flex-end;
   justify-content: start;
+}
+.quote--head--text--title {
+  color: var(--primary-crd-txt-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-sm);
+}
+.quote--head--text--subtitle {
+  color: var(--secondary-crd-txt-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw);
+  font-size: var(--fs-sm);
+}
+.quote--body--text {
+  color: var(--primary-crd-txt-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw);
+  font-size: var(--fs-sm);
 }
 
 .quote--head--text--title,
@@ -21,7 +39,7 @@
   margin-left: 5px;
 }
 .quote--head--image {
-  width: 60px;
+  width: 50px;
   border-radius: 50%;
 }
 .quote--body--text {

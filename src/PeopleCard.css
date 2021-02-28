@@ -13,10 +13,23 @@
   top: 10px;
   left: 10px;
 }
+.people--card--title {
+  color: var(--primary-crd-txt-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-sm);
+}
+.people--card--subtitle {
+  color: var(--secondary-crd-txt-clr);
+  font-family: var(--primary-ff);
+  font-weight: var(--fw);
+  font-size: var(--fs-sm);
+}
 .people--card--title,
 .people--card--subtitle {
   text-align: center;
 }
+
 .people--card--image {
   border-top-left-radius: var(--card-radius);
   border-top-right-radius: var(--card-radius);

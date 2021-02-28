@@ -25,7 +25,7 @@ export default function () {
                     <Form.Label className="contact--form--label">Message</Form.Label>
                     <Form.Control className="contact--form--control" as="textarea" rows={6} />
                 </Form.Group>
-                <Button className="d-block ml-auto" variant="primary" type="submit">
+                <Button className="d-block ml-auto contact--form--submit">
                     Submit
                 </Button>
             </Form>    

@@ -1,31 +1,39 @@
 :root {
-  --primary-txt-clr: rgb(45, 45, 112);
-  --icon-clr-red: red;
+  --primary-clr: #252584;
+  --secondary-clr: #00d7ff;
 
-  --x-padding: 100px;
+  --primary-clr-shade-1: #eedeff;
+
+  --primary-clr-btn-1: #fffede;
+  --primary-clr-btn-2: #ffc733;
+
+  --primary-title-clr: #ffffff;
+
+  --primary-icon-clr: #fe0302;
+  --secondary-icon-clr: #ff00b8;
+
+  --primary-crd-txt-clr: gray;
+  --secondary-crd-txt-clr: lightgray;
+
+  --primary-ff: "Nunito";
+
+  --fw: 400;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+
+  --fs-sm: 16px;
+  --fs-md: 24px;
+  --fs-lg: 36px;
+  --fs-xl: 48px;
+
+  --box-padding: 100px;
   --card-radius: 8px;
   --card-padding: 12px;
-  --card-shadow: 0px 1px 2px 2px whitesmoke;
+  --card-shadow: 0px 1px 2px 2px #f3f4f9;
+  --card-shadow-lg: 0px 0px 5px 5px #f3f4f9;
 }
 
 .px-10 {
-  padding-left: var(--x-padding);
-  padding-right: var(--x-padding);
-}
-.text-primary {
-  color: var(--primary-txt-clr);
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  padding-left: var(--box-padding);
+  padding-right: var(--box-padding);
 }
