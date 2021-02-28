@@ -1,0 +1,5 @@
+.contact--form--card {
+  border: none;
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+}

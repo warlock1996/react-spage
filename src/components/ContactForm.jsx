@@ -1,10 +1,11 @@
 import { React } from 'react'
-import { Form, Button } from 'react-bootstrap'
+import { Card, Form, Button } from 'react-bootstrap'
 import '../ContactForm.css'
 
 export default function () {
     return (
         <div className="contact--form">
+            <Card className="contact--form--card p-4">
             <Form>
                 <Form.Group>
                     <Form.Label className="contact--form--label">Name</Form.Label>
@@ -28,6 +29,7 @@ export default function () {
                     Submit
                 </Button>
             </Form>    
+            </Card>
         </div>
     );
 }

@@ -5,7 +5,7 @@ export default function () {
         <div className="location">
             <iframe
             style={{"border": 'none'} }
-            width="600"
+            width="100%"
             height="450"
             loading="lazy"
             allowfullscreen

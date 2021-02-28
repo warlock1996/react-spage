@@ -7,8 +7,8 @@ import '../Contact.css'
 export default function () {
     return (
         <div className="contact px-10 py-5">
-            <h1 className="contact--title">Contact Us</h1>
-            <Row className="align-items-center">
+            <h1 className="contact--title py-4">Contact Us</h1>
+            <Row noGutters={true} className="align-items-center justify-content-center">
                 <Col>
                     <ContactForm />
                 </Col>
