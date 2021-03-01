@@ -15,7 +15,7 @@ import nvidia from './assets/5-partners/nvidia.PNG'
 import samsung from './assets/5-partners/samsung.PNG'
 import tesla from './assets/5-partners/tesla.PNG'
 
-export default {
+const content = {
     heading1: 'We can give you our best user experience to your system',
     heading2: 'Easy access, whenever, whenever you want',
     paragraph1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -87,3 +87,5 @@ export default {
     ]
 
 }
+
+export default content;

@@ -3,7 +3,7 @@ import { Row, Col, Image } from 'react-bootstrap'
 import content from '../content'
 import '../Partners.css'
 
-export default function () {
+export default function Partner () {
     return (
         <div className="partners px-10 py-5">
         <h1 className="partners--heading">We've Worked With</h1>

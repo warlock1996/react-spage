@@ -1,10 +1,10 @@
 import { React } from 'react'
-import {Navbar , Nav,Image,  Form, FormControl , Button} from 'react-bootstrap'
+import {Navbar , Nav,Image, Form} from 'react-bootstrap'
 import logo from '../assets/1-header/logo.png'
 import search from '../assets/7-icons/search.svg'
 import '../Navbar.css'
 
-export default function () {
+export default function Navigation() {
     return (
         <Navbar className="navbar bg-transparent px-10 py-3" expand="lg">
         <Navbar.Brand href="#home">

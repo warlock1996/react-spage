@@ -33,6 +33,12 @@
   --card-shadow-lg: 0px 0px 15px 10px #f3f4f9;
 }
 
+@media (max-width: 1000px) {
+  :root {
+    --box-padding: 20px;
+  }
+}
+
 .px-10 {
   padding-left: var(--box-padding);
   padding-right: var(--box-padding);

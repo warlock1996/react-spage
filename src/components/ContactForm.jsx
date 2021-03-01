@@ -2,7 +2,7 @@ import { React } from 'react'
 import { Card, Form, Button } from 'react-bootstrap'
 import '../ContactForm.css'
 
-export default function () {
+export default function ContactForm() {
     return (
         <div className="contact--form">
             <Card className="contact--form--card p-4">

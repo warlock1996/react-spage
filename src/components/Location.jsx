@@ -1,9 +1,9 @@
 import { React } from 'react'
-import { Row, Col } from 'react-bootstrap'
-export default function () {
+export default function Location () {
     return (
         <div className="location">
             <iframe
+            title="map"
             style={{"border": 'none'} }
             width="100%"
             height="450"

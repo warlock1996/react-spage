@@ -2,7 +2,7 @@ import { React } from 'react'
 import { Card, FormCheck } from 'react-bootstrap'
 import '../PeopleCard.css'
 
-export default function (props) {
+export default function PeopleCard (props) {
     return (
     <Card className="people--card">
         <FormCheck className="people--card--checkbox" type="checkbox" />

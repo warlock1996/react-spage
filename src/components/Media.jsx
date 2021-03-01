@@ -2,7 +2,7 @@ import { React } from 'react'
 import { Row, Col, Image} from 'react-bootstrap'
 import '../Media.css'
 
-export default function (props) {
+export default function Media(props) {
     const reverse = props.reverse ? 'flex-row-reverse' : null;
     return (
         <Row noGutters={true} className={`align-items-center px-10 py-3 ${reverse}`}>

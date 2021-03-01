@@ -13,7 +13,6 @@ import image2 from './assets/3-content/content-002.png'
 import heart from './assets/7-icons/heart.svg'
 import happyFace from './assets/7-icons/happy-face.svg'
 import arrowRight from './assets/7-icons/arrow-right.svg'
-import garbage from './assets/7-icons/garbage.svg'
 import './App.css';
 
 function App() {

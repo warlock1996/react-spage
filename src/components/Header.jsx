@@ -1,12 +1,12 @@
 import { React } from 'react'
 import { Row, Col, Image} from 'react-bootstrap'
 import banner from '../assets/2-banner/banner.png'
-import Navbar from './Navbar'
+import Navigation from './Navbar'
 import '../Header.css';
-export default function () {
+export default function Header () {
     return (
         <div className="header">
-            <Navbar/>
+            <Navigation/>
             <Row noGutters={true} className="px-10 py-5">
                 <Col sm={12} md={6}>    
                   <h1 className="header--title">Make development easy with us.</h1>

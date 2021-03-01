@@ -2,7 +2,7 @@ import { React } from 'react'
 import { Image } from 'react-bootstrap'
 import '../Quote.css'
 
-export default function ({image, title, subtitle, body}) {
+export default function Quote ({image, title, subtitle, body}) {
     return (
         <div className="quote">
             <div className="quote--head">

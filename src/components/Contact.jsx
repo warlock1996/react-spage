@@ -4,7 +4,7 @@ import ContactForm from './ContactForm'
 import Location from './Location'
 import '../Contact.css'
 
-export default function () {
+export default function Contact () {
     return (
         <div className="contact px-10 py-5">
             <h1 className="contact--title py-4">Contact Us</h1>

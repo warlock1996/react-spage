@@ -2,7 +2,7 @@ import { React } from 'react'
 import { Row, Col, Image} from 'react-bootstrap'
 import '../Bar.css'
 
-export default function (props) {
+export default function Bar(props) {
     return (
         <Row noGutters={true} className="bar px-10 py-2"> 
             <Col sm={12} md={1}>

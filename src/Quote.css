@@ -1,6 +1,6 @@
 .quote {
   height: auto;
-  width: 400px;
+  max-width: 500px;
   padding: var(--card-padding);
   box-shadow: var(--card-shadow);
   border-radius: var(--card-radius);
@@ -10,7 +10,7 @@
 .quote--head {
   display: flex;
   align-items: flex-end;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .quote--head--text--title {
   color: var(--primary-crd-txt-clr);
